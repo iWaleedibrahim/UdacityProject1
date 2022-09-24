@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".WelcomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical"
+        android:paddingStart="@dimen/regular_padding"
+        android:paddingEnd="@dimen/regular_padding"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/first_welcome_message"
+            style="@style/big_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/first_welcome_message"
+            app:fontFamily="@font/ibm_plex_serif_bold"
+            />
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/second_welcome_message"
+            style="@style/paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/second_welcome_message"
+            app:fontFamily="@font/ibm_plex_serif_bold"
+            />
+
+        <Button
+            android:id="@+id/welcomeButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ibm_plex_serif"
+            android:text="@string/button_welcome"
+            />
+
+    </LinearLayout>
+</layout>

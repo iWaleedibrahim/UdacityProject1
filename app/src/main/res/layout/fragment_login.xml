@@ -13,11 +13,11 @@
         >
 
         <TextView
-            android:id="@+id/login_welcome_text"
+            android:id="@+id/login_instruction_text"
             style="@style/big_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/login_welcome_text"
+            android:text="@string/login_instruction_text"
 
             app:fontFamily="@font/ibm_plex_serif_bold" />
 
@@ -81,6 +81,3 @@
 
     </LinearLayout>
 </layout>
-
-<!--    android:text="@={loginFragment.email}"-->
-<!--    android:text="@={loginFragment.password}"-->
