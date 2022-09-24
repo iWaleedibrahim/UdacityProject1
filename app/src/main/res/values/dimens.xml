@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+
+        <dimen name="least_padding">16dp</dimen>
+        <dimen name="least_margin">16dp</dimen>
+
+
+         <dimen name="regular_padding">16dp</dimen>
+        <dimen name="regular_margin">16dp</dimen>
+
+        <dimen name="extra_padding">32dp</dimen>
+        <dimen name="extra_margin">32dp</dimen>
+
+
+
+        <dimen name="small_padding">8dp</dimen>
+        <dimen name="line_spacing_extra">8sp</dimen>
+        <dimen name="layout_margin">16dp</dimen>
+
+        <!-- Font Sizes -->
+        <dimen name="title_size">20sp</dimen>
+        <dimen name="text_input_size">16sp</dimen>
+        <dimen name="label_size">10sp</dimen>
+
+
+
+
+    </resources>
