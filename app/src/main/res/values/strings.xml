@@ -8,4 +8,9 @@
     <string name="please_enter_email">Please enter your email</string>
     <string name="password_label">Password</string>
     <string name="please_enter_password">Please enter your password</string>
+
+    <string name="button_login">Login</string>
+    <string name="button_login_with_existing_account">Login with existing account</string>
+
+
 </resources>

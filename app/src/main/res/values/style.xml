@@ -2,10 +2,9 @@
 <resources>
 
     <style name="big_title">
-        <item name="android:fontFamily">@font/ibm_plex_serif</item>
+        <item name="android:fontFamily">@font/ibm_plex_serif_bold</item>
         <item name="android:textSize">@dimen/title_size</item>
         <item name="android:textColor">@color/text_color</item>
-        <item name="android:layout_marginTop">200dp</item>
         <item name="android:layout_marginBottom">@dimen/extra_margin</item>
     </style>
 
@@ -14,11 +13,11 @@
         <item name="android:fontFamily">@font/ibm_plex_serif</item>
         <item name="android:textSize">@dimen/text_input_size</item>
         <item name="android:textColor">@color/text_color</item>
-
+        <item name="android:minHeight">48dp</item>
     </style>
 
     <style name="label">
-        <item name="android:layout_marginBottom">@dimen/lease_margin</item>
+        <item name="android:layout_marginBottom">@dimen/least_margin</item>
         <item name="android:fontFamily">@font/ibm_plex_serif</item>
         <item name="android:textSize">@dimen/label_size</item>
         <item name="android:textColor">@color/text_color</item>
