@@ -14,6 +14,14 @@
 
 
     <string name="first_welcome_message">Welcome to Shoe Store App</string>
+
+
+    <string name="instruction1">You can scroll to view all the items from the list</string>
+    <string name="instruction2">and if you want to see one item please press on it</string>
+    <string name="instruction3">We show case different models of shoes</string>
+    <string name="instruction4">We use MVVM with sharedViewModel</string>
+    <string name="instruction5">It is my first project on the udacity android nanodegree</string>
+
     <string name="second_welcome_message">Where you can get information about a lot of Shoes, Sneakers, and everything you put on you foot. once you try the app you will not use anything but the ShoeStore App. </string>
     <string name="button_welcome">Show me how to use the app</string>
     <string name="button_instruction">Show me the shoes list</string>

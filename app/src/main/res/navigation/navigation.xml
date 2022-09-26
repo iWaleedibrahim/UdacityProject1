@@ -39,7 +39,10 @@
         android:id="@+id/listingFragment"
         android:name="com.udacity.shoestore.fragments.Listing.ListingFragment"
         android:label="fragment_listing"
-        tools:layout="@layout/fragment_listing" >
+        tools:layout="@layout/fragment_listing"
+        app:popUpTo="@id/loginFragment"
+        app:popUpToInclusive="true"
+        >
         <action
             android:id="@+id/action_listingFragment_to_detailFragment"
             app:destination="@id/detailFragment" />

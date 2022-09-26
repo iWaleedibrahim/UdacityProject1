@@ -14,37 +14,46 @@
 
         <TextView
             android:id="@+id/instruction0"
-            style="@style/big_title"
+            style="@style/input_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/first_welcome_message"
+            android:text="@string/instruction1"
             app:fontFamily="@font/ibm_plex_serif_bold"
             />
 
         <TextView
             android:id="@+id/instruction1"
-            style="@style/big_title"
+            style="@style/input_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/first_welcome_message"
+            android:text="@string/instruction2"
             app:fontFamily="@font/ibm_plex_serif_bold"
             />
 
         <TextView
             android:id="@+id/instruction2"
-            style="@style/big_title"
+            style="@style/input_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/first_welcome_message"
+            android:text="@string/instruction3"
             app:fontFamily="@font/ibm_plex_serif_bold"
             />
 
         <TextView
             android:id="@+id/instruction3"
-            style="@style/big_title"
+            style="@style/input_style"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/first_welcome_message"
+            android:text="@string/instruction4"
+            app:fontFamily="@font/ibm_plex_serif_bold"
+            />
+
+        <TextView
+            android:id="@+id/instruction4"
+            style="@style/input_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instruction5"
             app:fontFamily="@font/ibm_plex_serif_bold"
             />
 
@@ -59,3 +68,4 @@
 
     </LinearLayout>
 </layout>
+
