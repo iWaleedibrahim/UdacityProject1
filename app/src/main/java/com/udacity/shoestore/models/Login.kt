@@ -6,5 +6,3 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class Login(  var email: String, var password: String ) : Parcelable
-
-

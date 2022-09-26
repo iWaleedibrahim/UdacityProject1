@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/font/ibm_plex_serif_bold.xml" value="0.1329059829059829" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.13728470111448834" />
         <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.13728470111448834" />
         <entry key="app/src/main/res/layout/fragment_instructions.xml" value="0.13728470111448834" />
         <entry key="app/src/main/res/layout/fragment_listing.xml" value="0.13728470111448834" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.16394927536231885" />
-        <entry key="app/src/main/res/layout/fragment_welcome.xml" value="0.2682291666666667" />
+        <entry key="app/src/main/res/layout/fragment_welcome.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.11221912090594954" />
         <entry key="app/src/main/res/layout/navigation.xml" value="0.13728470111448834" />
       </map>
     </option>
