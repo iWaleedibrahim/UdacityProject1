@@ -49,10 +49,10 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:${version_lifecycle_extensions}"
 
     // Navigation
-    implementation "androidx.navigation:navigation-fragment-ktx:2.5.2"
-    implementation "androidx.navigation:navigation-ui-ktx:2.5.2"
+    implementation "androidx.navigation:navigation-fragment-ktx:${version_nav}"
+    implementation "androidx.navigation:navigation-ui-ktx:${version_nav}"
 
-//    implementation 'androidx.appcompat:appcompat:1.2.0'
+    // implementation 'androidx.appcompat:appcompat:1.2.0'
 
     implementation 'com.jakewharton.timber:timber:4.7.1'
     testImplementation 'junit:junit:4.12'

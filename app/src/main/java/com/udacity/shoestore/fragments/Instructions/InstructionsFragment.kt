@@ -16,7 +16,6 @@ class InstructionsFragment : Fragment() {
         super.onCreate(savedInstanceState)
 
     }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -27,6 +26,5 @@ class InstructionsFragment : Fragment() {
             Navigation.createNavigateOnClickListener(R.id.action_instructionsFragment_to_listingFragment))
         return binding.root
     }
-
 
 }

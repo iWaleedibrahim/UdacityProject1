@@ -31,7 +31,7 @@ class DetailFragment : Fragment() {
             inflater, R.layout.fragment_detail, container, false)
         binding
 
-        viewModel.currentShoe.observe(this, Observer { newShoe ->
+        viewModel.currentShoe.observe(viewLifecycleOwner, Observer { newShoe ->
             binding.currentShoe = newShoe
         })
 
