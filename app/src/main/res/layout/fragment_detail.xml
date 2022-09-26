@@ -3,7 +3,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+
     <data>
+
+        <import type="com.udacity.shoestore.utils.DoubleConverter" />
+
         <variable
             name="currentShoe"
             type="com.udacity.shoestore.models.Shoe" />
@@ -28,6 +33,25 @@
                 style="@style/big_title"
                 android:gravity="center"
                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@{DoubleConverter.doubleToString(currentShoe.size)}"
+                style="@style/big_title"
+                android:gravity="center"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@{currentShoe.description}"
+                style="@style/input_style"
+                android:gravity="center"
+                />
+
+
 
             <TextView
                 android:layout_width="match_parent"

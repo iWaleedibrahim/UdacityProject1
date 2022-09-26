@@ -61,17 +61,12 @@ class SharedViewModel : ViewModel() {
 
     fun onItemSelect(view: View ) {
         val current_view =  view.getTag().toString()
-        Log.i("current_view",current_view)
         when(current_view.toString()) {
             "first_image"  -> _currentShoe.value = _shoesList.value?.get(0)
             "second_image" -> _currentShoe.value = _shoesList.value?.get(1)
             "third_image"  -> _currentShoe.value = _shoesList.value?.get(2)
             "fourth_image" -> _currentShoe.value = _shoesList.value?.get(3)
         }
-
-        Log.i("current_view", _currentShoe.value.toString())
-        Log.i("current_view", _shoesList.value?.get(0).toString() )
-
         view.findNavController().navigate(R.id.action_listingFragment_to_detailFragment)
     }
 
@@ -80,29 +75,29 @@ class SharedViewModel : ViewModel() {
             Shoe(
                 name = "Converse",
                 size = 35.3,
-                company = "Converse",
-                description = "Air Stepper is a very good sneakers. ",
+                company = "Converse Inc.",
+                description = "Converse is a very good Shoe. ",
                 images = firstShoeImages
             ),
             Shoe(
                 name = "Nike Run",
                 size = 39.8,
-                company = "Nike",
-                description = "Air Stepper is a very good sneakers. ",
+                company = "Nike Inc.",
+                description = "Nike Run is a very good Shoe. ",
                 images = secondShoeImages,
             ),
             Shoe(
                 name = "Puma Air",
                 size = 42.5,
-                company = "Puma",
-                description = "Air Stepper is a very good sneakers. ",
+                company = "Puma Inc.",
+                description = "Puma AirPuma Air is a very Shoe. ",
                 images = thirdShoeImages,
             ),
             Shoe(
                 name = "Adidas Run",
                 size = 44.2,
-                company = "Adidas",
-                description = "Air Stepper is a very good sneakers. ",
+                company = "Adidas Inc.",
+                description = "Adidas Run is a very good Shoe. ",
                 images = fourthShoeImages,
             ),
         )
